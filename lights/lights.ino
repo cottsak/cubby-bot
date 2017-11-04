@@ -54,7 +54,7 @@ void loop() {
 }
 
 void middleButtonClick() {
-  // one flash for fet1
+  // one flash to ack input
   digitalWrite(LED_BUILTIN, HIGH); delay(100); digitalWrite(LED_BUILTIN, LOW);
 
   // toggle
@@ -62,7 +62,7 @@ void middleButtonClick() {
 }
 
 void topButtonClick() {
-  // two flashes for fet2
+  // two flashes ack input
   digitalWrite(LED_BUILTIN, HIGH); delay(100); digitalWrite(LED_BUILTIN, LOW); delay(100);
   digitalWrite(LED_BUILTIN, HIGH); delay(100); digitalWrite(LED_BUILTIN, LOW);
   
@@ -83,10 +83,4 @@ void updateLights() {
     digitalWrite(outputPinFet3, LOW);
   }
 }
-
-
-
-
-
-
 
