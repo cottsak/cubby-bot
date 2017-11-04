@@ -1,2 +1,2 @@
 # cubby-bot
-controller for boys cubby house
+simple lighting controller for boys cubby house
